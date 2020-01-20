@@ -36,7 +36,7 @@ const CodeCell = props => {
             {
                 tokens
                     ? (tokens.length ? tokens.map(actualRenderToken) : ' ')
-                    : (text || ' ')
+                    : (text || '++ ')
             }
         </td>
     );
